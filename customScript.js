@@ -3,24 +3,8 @@
 
     const isProxy = window.pageHeaderJsonData.userInfo.proxyId;
     if (isProxy) {
-        console.log("is proxy")
+        window.alert("You are not allowed to view this App");
     }else{
-        console.log("NO")
+        window.open("https://itgdev-de-an04560-specialrequests-approuter.cfapps.eu10.hana.ondemand.com/comntthrsEmployeeSpecialRequests/index.html?sap_idp=httpssalesdemo.successfactors.eusfid")    
     }
-    // set attributes
-    // dialog.setAttribute("header-text", "Third Party JavaScript");
-    // footer.setAttribute("slot", "footer");
-    // // content
-    // content.innerHTML = "This dialog was created by third party JS file";
-    // content.style.padding = "1rem";
-    // // footer btn
-    // footerBtn.onclick = () => dialog.close();
-    // footerBtn.innerHTML = "Close";
-    // // append elements
-    // dialog.appendChild(content);
-    // dialog.appendChild(footer);
-    // footer.appendChild(footerBtn);
-    // document.body.appendChild(dialog);
-    // // open dialog
-    // dialog.show();
 })();
