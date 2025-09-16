@@ -1,5 +1,6 @@
 (function () {
-    const DOCUMENT_CENTER_URL = 'https://sar-sci-prod-org-sar-cf-prod-space-documentcenter-approuter.cfapps.eu10-004.hana.ondemand.com/comntthrsdocumentcenter/index.html?sap_idp=httpsperformancemanager5.successfact';
+    // const DOCUMENT_CENTER_URL = 'https://sar-sci-prod-org-sar-cf-prod-space-documentcenter-approuter.cfapps.eu10-004.hana.ondemand.com/comntthrsdocumentcenter/index.html?sap_idp=httpsperformancemanager5.successfact';
+    const DOCUMENT_CENTER_URL = 'https://itgdev-de-an04560-specialrequests-approuter.cfapps.eu10.hana.ondemand.com/comntthrsEmployeeSpecialRequests/index.html?sap_idp=httpssalesdemo.successfactors.eusfid';
 
     /**
      * Displays a full-screen access denied message.
