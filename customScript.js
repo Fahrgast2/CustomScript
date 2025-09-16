@@ -1,7 +1,7 @@
 (function () {
     // create dialog elements
 
-    const isProxy = window.pageHeaderJsonData.userInfo.proxyID;
+    const isProxy = window.pageHeaderJsonData.userInfo.proxyId;
     if (isProxy) {
         console.log("is proxy")
     }else{
